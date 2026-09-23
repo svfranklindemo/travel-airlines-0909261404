@@ -628,6 +628,11 @@
     "id": "card",
     "fields": [
       {
+        "component": "tab",
+        "label": "Basic",
+        "name": "basic"
+      },
+      {
         "component": "reference",
         "valueType": "string",
         "name": "image",
@@ -804,6 +809,11 @@
         "value": "",
         "valueType": "string",
         "description": "Optional hex color for card text (e.g. #fff, #000000, or 333). Leave empty for default."
+      },
+      {
+        "component": "tab",
+        "label": "Mobile Specific",
+        "name": "mobileSpecific"
       },
       {
         "component": "text",
